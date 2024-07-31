@@ -1,13 +1,8 @@
 #!/usr/bin/python3
+
 """
 Flask web application that listens on 0.0.0.0, port 5000.
 Provides several routes:
-1. /: displays “Hello HBNB!”
-2. /hbnb: displays “HBNB”
-3. /c/<text>: displays “C ” followed by the value of the text variable
-   (replaces underscore _ symbols with a space)
-4. /python/(<text>): displays “Python ” followed by the value of the text variable
-   (replaces underscore _ symbols with a space). The default value of text is “is cool”.
 5. /number/<n>: displays “n is a number” only if n is an integer.
 """
 
